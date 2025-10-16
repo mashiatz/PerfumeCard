@@ -1,0 +1,43 @@
+body{
+    background-color: #dcdada;
+    padding-top: 6rem;
+   
+    
+   
+    
+}
+
+
+.big-box{
+    background-color: #FFFFF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    
+   
+    width: 95%;
+    height: 80rem;
+    margin: 0 auto;
+    
+    
+    
+    
+   
+    
+
+}
+.small-box{
+    display: flex;
+    gap: 30px;
+    background-color: white;
+    width: 45%;
+    border-radius: 20px;
+    
+   
+    
+}
+.description{
+    padding: 3rem;
+}
+
