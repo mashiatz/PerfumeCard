@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
 body{
     background-color: #dcdada;
     padding-top: 6rem;
@@ -9,7 +11,7 @@ body{
 
 
 .big-box{
-    background-color: #FFFFF0;
+    background-color: hsl(30, 38%, 92%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +39,58 @@ body{
    
     
 }
-.description{
-    padding: 3rem;
+.description > h5{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(164, 160, 160);
+
+}
+
+.description > h2{
+    font-size: 52px;
+    
+    font-family: "Fraunces", serif;
+}
+
+
+.description > p{
+    /* padding: 3rem; */
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(121, 118, 118);
+    
+}
+.prices{
+    display: flex;
+    align-items: center;
+    gap:48px
+}
+#dol{
+    font-family: "Fraunces", serif;
+    font-size: 50px; 
+    color: #3D7F67; 
+    font-weight: 700;
+
+}
+#doll{
+    font-size: 22px;
+    text-decoration: line-through;
+    font-family: "Montserrat", sans-serif;
+   color: rgb(121, 118, 118);
+}
+
+#btn{
+    border: none;
+    background-color: #3D7F67 ;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 24rem;
+    border-radius: 5px;
+    padding: 1rem;
+
+
 }
 
