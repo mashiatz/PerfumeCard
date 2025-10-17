@@ -2,57 +2,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
 body{
     background-color: #dcdada;
-    padding-top: 6rem;
-   
-    
-   
-    
+    padding-top: 6rem;  
 }
-
-
 .big-box{
     background-color: hsl(30, 38%, 92%);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 24px;
-    
-   
     width: 95%;
     height: 80rem;
     margin: 0 auto;
-    
-    
-    
-    
-   
-    
-
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.15);
 }
 .small-box{
     display: flex;
     gap: 30px;
     background-color: white;
     width: 45%;
-    border-radius: 20px;
-    
-   
-    
+    border-radius: 20px; 
+}
+.imo{
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px
 }
 .description > h5{
     font-size: 26px;
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
     color: rgb(164, 160, 160);
-
 }
 
 .description > h2{
     font-size: 52px;
-    
     font-family: "Fraunces", serif;
 }
-
 
 .description > p{
     /* padding: 3rem; */
@@ -71,7 +55,6 @@ body{
     font-size: 50px; 
     color: #3D7F67; 
     font-weight: 700;
-
 }
 #doll{
     font-size: 22px;
@@ -87,10 +70,53 @@ body{
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 600;
-    width: 24rem;
-    border-radius: 5px;
+    width: 22rem;
+    border-radius: 8px solid #3D7F67;
     padding: 1rem;
 
-
 }
+
+#btn:hover{
+    background-color: #1B4233;
+    
+}
+
+ @media screen and (max-width:379px){
+   .big-box{
+    width: fit-content;
+    height: auto;
+    padding-top:4rem;
+    padding-bottom: 4rem;
+   }
+   .small-box{
+    flex-direction: column;
+    width:fit-content;
+    /* padding: 3rem; */
+    margin: 2rem;
+   }
+   .description{
+    padding: 3rem;
+   }
+   .imo{
+    content: url('../images/image-product-mobile.jpg');
+   
+    border-top-left-radius: 20px; 
+     border-bottom-left-radius:1px ; 
+    border-top-right-radius: 20px; 
+    
+    
+    
+   
+}
+#btn{
+    width: 100%;
+    border-radius: 5px;
+    height: 5rem;
+}
+
+   
+    
+
+
+ }
 
